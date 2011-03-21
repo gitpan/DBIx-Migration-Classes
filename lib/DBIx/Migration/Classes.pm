@@ -8,7 +8,7 @@ use DBI;
 use Module::Collect;
 use Data::Dumper;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 ################################################################################
 

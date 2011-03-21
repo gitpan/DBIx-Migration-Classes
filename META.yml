@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               DBIx-Migration-Classes
-version:            0.01
+version:            0.02
 abstract:           Class-based migration for relational databases.
 author:
     - Tom Kirchner <tk@local>
@@ -10,7 +10,10 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    Data::Dumper:     0
+    DBI:              0
+    Module::Collect:  0
 no_index:
     directory:
         - t
